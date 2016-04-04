@@ -1,0 +1,12 @@
+#box {
+	margin: 100px auto 20px;
+	height: 200px;
+	width: 200px;
+	border: solid 2px black;
+}
+
+button {
+	display: block;
+	margin: 0 auto;
+	width: 10%;
+}
