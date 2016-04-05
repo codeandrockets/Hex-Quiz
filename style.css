@@ -1,3 +1,7 @@
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
 .box {
 	height: 200px;
 	width: 200px;
@@ -18,7 +22,15 @@ button {
 }
 
 #rightHex {
-	margin: 50px auto;
+	margin: 20px auto 0;
+	width: 200px;
+	font-size: 40px;
+	text-align: center;
+}
+
+#answer {
+	margin: 20px auto;
 	width: 100px;
 	font-size: 40px;
 }
+

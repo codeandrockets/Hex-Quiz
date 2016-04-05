@@ -4,16 +4,17 @@
 	<title>Hex Quiz</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
-<body>
+<body id="checkColor" onload="populate()">
 <div id="rightHex"></div>
+<div id="answer"></div>
 <div id="boxes">
-	<a id="box1" href="#"><div id="div1" class="box" ></div></a>
-	<a id="box2" href="#"><div id="div2" class="box" ></div></a>
-	<a id="box3" href="#"><div id="div3" class="box" ></div></a>
-	<a id="box4" href="#"><div id="div4" class="box" ></div></a>
+	<a onClick="check1()" id="box1" href="#"><div id="div1" class="box" ></div></a>
+	<a onClick="check2()" id="box2" href="#"><div id="div2" class="box" ></div></a>
+	<a onClick="check3()" id="box3" href="#"><div id="div3" class="box" ></div></a>
+	<a onClick="check4()" id="box4" href="#"><div id="div4" class="box" ></div></a>
 </div>
 
-<button onClick="fillBoxes()">Generate Hex Color</button>
+<button onClick="populate()">Generate Hex Color</button>
 
 	<script>
 
