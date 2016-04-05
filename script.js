@@ -41,6 +41,7 @@
 		
 		var rightHex = array[Math.floor(Math.random() * array.length)];
 		document.getElementById('rightHex').innerHTML = "#" + rightHex;
+		
 	}
 
 	function check1() {

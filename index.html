@@ -2,9 +2,11 @@
 <html>
 <head>
 	<title>Hex Quiz</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body id="checkColor" onload="populate()">
+<h2>Click the Box with the Colour:</h2>
 <div id="rightHex"></div>
 <div id="answer"></div>
 <div id="boxes">
@@ -14,7 +16,7 @@
 	<a onClick="check4()" id="box4" href="#"><div id="div4" class="box" ></div></a>
 </div>
 
-<button onClick="populate()">Generate Hex Color</button>
+<button class=" btn-default btn" onClick="populate()">Generate Hex Color</button>
 
 	<script>
 
