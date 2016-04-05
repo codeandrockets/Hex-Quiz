@@ -5,30 +5,20 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div id="rightHex"></div>
+<div id="boxes">
+	<a id="box1" href="#"><div id="div1" class="box" ></div></a>
+	<a id="box2" href="#"><div id="div2" class="box" ></div></a>
+	<a id="box3" href="#"><div id="div3" class="box" ></div></a>
+	<a id="box4" href="#"><div id="div4" class="box" ></div></a>
+</div>
 
-<div id="box"></div>
-<button onClick="steven()">Generate Hex Color</button>
-
+<button onClick="fillBoxes()">Generate Hex Color</button>
 
 	<script>
 
-	var hexOptions = [ 0, 1, 2, 3, 4, 5, 6, 7 ,8 , 9, "a", "b", "c", "d", "e", "f" ];	
-
-	function steven() {
-		
-		var hex = "";
-		for (i = 0; i < 6; i++) {
-			var singleHex = hexOptions[Math.floor(Math.random() * hexOptions.length)];
-			singleHex = singleHex.toString(); 
-			hex = hex + singleHex; 
-		}
-		
-		console.log(hex);
-		document.getElementById('box').style.background = "#" + hex;
-	} 
-
-
 	</script>
 
+	<script src="script.js"></script>
 </body>
 </html>
